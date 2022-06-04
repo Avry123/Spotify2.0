@@ -3,7 +3,7 @@ import {HomeIcon, SearchIcon, LibraryIcon, PlusCircleIcon, RssIcon} from '@heroi
 import {HeartIcon} from '@heroicons/react/solid';
 import {signOut, useSession} from 'next-auth/react';
 import useSpotify from '../hooks/useSpotify';
-import { playlistIdState } from '../atoms/playListAtom';
+import { playlistIdState } from '../atoms/playlistAtom';
 import { useRecoilState } from 'recoil';
 
 function Sidebar() {
